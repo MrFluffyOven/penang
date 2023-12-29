@@ -75,7 +75,7 @@ endif
 BOARD_BOOTIMG_HEADER_VERSION := 3
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image.gz
-TARGET_KERNEL_CONFIG := penang_defconfig
+TARGET_KERNEL_CONFIG := defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/penang
 
 # Display
