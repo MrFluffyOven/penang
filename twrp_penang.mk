@@ -26,6 +26,6 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="penang_g-user 11 T1TP33.1-47-2 76390 release-keys"
+    PRIVATE_BUILD_DESC="penang_g-user 11 T1TPS33.75-96-1-2 f65dfc release-keys"
 
-BUILD_FINGERPRINT := motorola/penang_g/penang:11/T1TP33.1-47-2/76390:user/release-keys
+BUILD_FINGERPRINT := motorola/penang_g/penang:11/T1TPS33.75-96-1-2/f65dfc:user/release-keys
