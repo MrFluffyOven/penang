@@ -21,12 +21,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.holi
 
+PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+    bootctrl.holi \
+    libgptutils \
+    libz \
+    libcutils
+
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
     update_engine \
     update_verifier \
     update_engine_sideload
-
-# Copy modules for depmod
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*.ko,$(LOCAL_PATH)/prebuilt,$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1)    
