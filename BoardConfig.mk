@@ -58,6 +58,9 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/motorola/penang
 TARGET_KERNEL_CONFIG := penang_defconfig
 
+# Vendor Modules
+TW_LOAD_VENDOR_MODULES := "mmi_annotate.ko mmi_info.ko cw2217b_fg_mmi.ko adapter_class.ko mmi_charger.ko mmi_discrete_charger_class.ko sgm4154x_charger.ko bq2589x_charger.ko mmi_discrete_charger.ko qpnp_adaptive_charge.ko tcpc_class.ko tcpc_sgm7220.ko tcpc_rt1711h.ko rt_pd_manager.ko"
+
 # Platform
 TARGET_BOARD_PLATFORM := holi
 
