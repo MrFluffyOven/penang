@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -20,3 +20,10 @@ PRODUCT_NAME := twrp_penang
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Holi for arm64
 PRODUCT_MANUFACTURER := motorola
+
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="penang_g-user 11 U1TP34.29-37-2 666ec release-keys"
+
+BUILD_FINGERPRINT := motorola/penang_g/penang:11/U1TP34.29-37-2/666ec:user/release-keys
