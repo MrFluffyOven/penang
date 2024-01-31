@@ -6,7 +6,7 @@
     repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11.0
 ## Sync
     repo sync
-## Clone Magendanz twrp tree
-    git clone https://github.com/MrFluffyOven/penang -b twrp-11.0 device/samsung/gta8wifi
+## Clone twrp tree
+    git clone https://github.com/MrFluffyOven/penang -b twrp-11.0 device/motorola/penang
 ## build:
-    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_gta8wifi-eng; mka bootimage
+    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_penang-eng; mka bootimage
