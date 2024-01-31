@@ -72,6 +72,15 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+# qcom decryption
+PRODUCT_PACKAGES_ENG += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
+
+# tzdata
+PRODUCT_PACKAGES_ENG += \
+    tzdata_twrp
+
     # Copy modules for depmod
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*.ko,$(LOCAL_PATH)/prebuilt,$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1)    
 
