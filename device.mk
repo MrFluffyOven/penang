@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 LOCAL_PATH := device/motorola/penang
 
 # define hardware platform
-PRODUCT_PLATFORM := sm6150
+PRODUCT_PLATFORM := SM4350
 
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
