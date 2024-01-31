@@ -80,4 +80,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/qpnp_adaptive_charge.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/qpnp_adaptive_charge.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/sensors_class.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/sensors_class.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/utags.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/utags.ko
-    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/synaptics_tcm_touch.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/synaptics_tcm_touch.ko
+    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/5.4-gki/synaptics_tcm_touch.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/5.4-gki/synaptics_tcm_touch.ko \
+    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/5.4-gki/nvt_36xxx.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/5.4-gki/nvt_36xxx.ko \
