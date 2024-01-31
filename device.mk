@@ -54,9 +54,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_system=true
 
 PRODUCT_PACKAGES += \
-    otapreopt_script
-
-PRODUCT_PACKAGES += \
     bootctrl.holi
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
